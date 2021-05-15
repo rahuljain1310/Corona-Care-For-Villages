@@ -1,0 +1,19 @@
+.circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 1px blue dashed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.join-initiative {
+  text-align: center;
+  font-size: 2em;
+  padding: 8px;
+  font-weight: 900;
+  margin: 16px 32px;
+}
