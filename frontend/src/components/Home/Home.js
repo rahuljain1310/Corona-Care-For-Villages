@@ -10,7 +10,7 @@ function Home() {
   return (
     <div>
       <Row>
-        <Col lg={7}>
+        <Col lg={7} className="mx-auto">
           <img src={header} width="100%" />
           <h1 className="header">Corona Care for Villages</h1>
         </Col>
