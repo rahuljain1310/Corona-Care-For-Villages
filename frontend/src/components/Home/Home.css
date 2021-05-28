@@ -2,7 +2,7 @@
   height: 400px;
   width: 400px;
   border-radius: 50%;
-  border: 1px blue dashed;
+  border: 1px #007bff solid;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -16,4 +16,16 @@
   padding: 8px;
   font-weight: 900;
   margin: 16px 32px;
+}
+
+.left-pane {
+  padding: 2% 20% ;
+  /* font-family: 'Mate SC', serif; */
+  height: 70vh;
+  font-size: larger;
+}
+
+.home {
+  color: white;
+  background: linear-gradient(to right, #489618 0%, #6BAC1B 100%);
 }

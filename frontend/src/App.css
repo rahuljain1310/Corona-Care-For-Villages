@@ -1,3 +1,12 @@
-.header {
+section {
+  padding: 2% 4%;
+  margin: 12px 8%;
   text-align: center;
+}
+
+section h1 {
+  text-shadow: 8px 8px #ddd;
+  margin: 16px;
+  margin-bottom: 32px;
+  text-transform: uppercase;
 }

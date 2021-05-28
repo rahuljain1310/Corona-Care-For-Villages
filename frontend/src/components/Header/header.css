@@ -1,15 +1,17 @@
 header {
-  padding: 12px;
-  position:sticky;
-  top: 0px;
-  background-color: #fff;
+  /* padding: 12px; */
+  /* position:sticky; */
+  /* top: 0px; */
+  /* background-color: #fff; */
+  padding: 24px 9%;
   width: 100%;
-  z-index: 1000;
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  color: white;
+  font-size: 1.2em;
+  /* z-index: 1000; */
+  /* -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3); */
 }
-
 
 .color{
   padding: 8px;
@@ -21,10 +23,11 @@ header {
 .Links{
   font-family: inherit;
   text-align: center;
-  color: black;
+  color: inherit;
   margin: 10px;
-  font-size: 15px;
+  font-size: 1em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 
