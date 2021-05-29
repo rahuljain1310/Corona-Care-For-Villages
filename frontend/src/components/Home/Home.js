@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container, Jumbotron, Image, Button } from "react-bootstrap";
+import { Link, animateScroll as scroll } from "react-scroll";
 import header from "./Images/header.jpg";
 import vaccine from "./Images/vaccine.png";
 import medicine from "./Images/medicines.png";
@@ -34,16 +35,17 @@ function Home() {
         </Col>
         <Col>
           <div className='left-pane'>
-            <h1>Contribute To Cause !</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <Row>
+            <h1>Our Mission</h1>
+            <div>
+              We, in collaboration with NGOs and volunteers at ground are aiming to provide <span>Medicine Kits</span> and connecting <span>Doctors</span> to <span>Patients</span> in rural areas. 
+              <br></br>
+              <span><a href="/#sc-initiative">We need your help!</a></span> 
+            </div>
+            {/* <Row>
               <Col><Button size='lg' variant='success'>Donate</Button></Col>
               <Col><Button size='lg' variant='success'>Doctor</Button></Col>
               <Col><Button size='lg' variant='success'>Volunteer</Button></Col>
-            </Row>
+            </Row> */}
           </div>
         </Col>
       </Row>

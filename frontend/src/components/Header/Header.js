@@ -8,7 +8,7 @@ function Header() {
       <Row>
         <Col lg={6} md={8} sm={10}>
           <div className="logo-section">
-            <div id="head">Covid-19 Care For Villages</div>
+            <div id="head"><span>CoviCare:</span> Covid-19 Care For Villages</div>
             <div id="subhead">Helping others is the way we help ourselves!</div>
           </div>
         </Col>
@@ -16,7 +16,6 @@ function Header() {
           <nav className="color" style={{ textAlign: "right" }}>
             {/* <a className="Links" href="/#sc-about">  About </a> */}
             <a className="Links" href="/#sc-mission">  Mission </a>
-            <a className="Links" href="/#sc-team">  Team </a>
             <a className="Links" href="/#sc-partners">  Partners </a>
             {/* <a className="Links" href="/#sc-bulletin">  Contributors </a> */}
             {/* <a className="Links" href="/#sc-media">   News </a> */}

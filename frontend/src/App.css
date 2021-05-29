@@ -5,8 +5,16 @@ section {
 }
 
 section h1 {
-  text-shadow: 8px 8px #ddd;
+  /* text-shadow: 8px 8px #ddd; */
   margin: 16px;
   margin-bottom: 32px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
+
+section a {
+  color: #64a81a;
+}
+section a:hover {
+  color: #048300;
+}
+
