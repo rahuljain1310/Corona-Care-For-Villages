@@ -3,6 +3,7 @@ import { Row, Col, Container, Image, Card } from "react-bootstrap";
 import voluImg from "./Svgs/volunteer.svg";
 import doctImg from "./Svgs/doctor-surgeon.svg";
 import donaImg from "./Svgs/donate-donation.svg";
+import "./Initiative.css";
 
 function Initiative() {
   return (
@@ -12,7 +13,7 @@ function Initiative() {
         <Container>
           <Row className="mx-auto">
             <Col lg={4} className="mx-auto d-block">
-              <Card style={{padding: '10%'}}>
+              <Card className="card" style={{padding: '10%'}}>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHaFCwUwhtxjBxC5OOoHzNIaaGTsRD-v0M_77iBGRAeuPoPw/viewform?usp=sf_link">
                   <div className="mb-2 text-center">
                     <Image style={{ width: "80%" }} src={voluImg} fluid />

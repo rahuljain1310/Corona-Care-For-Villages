@@ -18,3 +18,6 @@ section a:hover {
   color: #048300;
 }
 
+section div.card{
+  background-color: grey;
+}
