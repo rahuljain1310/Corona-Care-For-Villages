@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Partners from "./components/Partners/Partners";
 import Mission from "./components/Mission/Mission";
@@ -12,7 +11,6 @@ const App = () => (
     <Home />
     <Mission/>
     <Initiative/>
-    {/* <Team /> */}
     <Partners/>
     <Footer />
   </div>

@@ -5,10 +5,12 @@ section {
 }
 
 section h1 {
-  /* text-shadow: 8px 8px #ddd; */
+  text-shadow: 8px 8px #ddd8;
   margin: 16px;
   margin-bottom: 32px;
-  /* text-transform: uppercase; */
+  font-family: 'Mate SC', serif;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 section a {

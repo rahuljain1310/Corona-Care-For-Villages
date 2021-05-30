@@ -77,7 +77,10 @@ function Footer() {
           <Col>
             <p className="copyright">
               &copy; {new Date().getFullYear()} Covid-19 Care For Villages | All
-              rights reserved | This website is made with &hearts;
+              rights reserved | This website is made with &hearts; <br/>
+              <a href="https://www.vecteezy.com/free-vector/design">Design Vectors by Vecteezy</a>
+            </p>
+            <p>
             </p>
           </Col>
         </Row>
