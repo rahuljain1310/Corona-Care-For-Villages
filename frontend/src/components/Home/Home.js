@@ -1,12 +1,5 @@
 import React from "react";
-import { Row, Col, Container, Jumbotron, Image, Button } from "react-bootstrap";
-import { Link, animateScroll as scroll } from "react-scroll";
-import header from "./Images/header.jpg";
-import vaccine from "./Images/vaccine.png";
-import medicine from "./Images/medicines.png";
-import voluImg from "./Svgs/volunteer.svg";
-import doctImg from "./Svgs/doctor-surgeon.svg";
-import donaImg from "./Svgs/donate-donation.svg";
+import { Row, Col, Container, Button } from "react-bootstrap";
 import doctor from "./Images/doctor.png";
 import Header from "../Header/Header";
 import after_back from "./Images/banner-after.png";
@@ -15,7 +8,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className='home'>
-    <Header />
+      <Header />
       <Container>
         <Row>
           <Col lg = {5}>
@@ -56,7 +49,7 @@ function Home() {
           </Col>
         </Row>
       </Container>
-      <img style={{width: '100%'}} src={after_back}/>
+      <img style={{width: '100%', maxHeight: '100px'}} src={after_back}/>
     </div>
   )
 }

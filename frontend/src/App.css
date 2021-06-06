@@ -1,7 +1,14 @@
 section {
   padding: 2% 4%;
-  margin: 12px 8%;
+  margin: 12px 4%;
   text-align: center;
+}
+
+@media (max-width: 580px) {
+  section {
+    padding: 2% 2%;
+    margin: 4px;
+  }
 }
 
 section h1 {
@@ -20,6 +27,14 @@ section a:hover {
   color: #048300;
 }
 
-section div.card{
-  background-color: grey;
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+section p{
+  font-size: 1.2em;
+  text-align: justify;
+  line-height: 2em;
+  width: 90%;
+  margin: auto;
 }

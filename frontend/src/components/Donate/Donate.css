@@ -1,0 +1,35 @@
+#sc-donate h1 {
+  color: white;
+  text-shadow: 8px 8px #eee3;
+}
+
+#sc-donate h2 {
+  font-family: 'Mate SC', serif;
+}
+
+#sc-donate .donate-card {
+  min-width: 300px;
+  background-color: white;
+  padding: 4%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.2);
+  text-align: justify;
+  color: black;
+}
+
+#sc-donate p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#sc-donate a {
+  color: green;
+}
+
+#sc-donate a:hover {
+  color: white;
+  text-decoration: none;
+}

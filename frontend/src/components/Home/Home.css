@@ -79,7 +79,7 @@
   background: linear-gradient(to right, #489618 0%, #6BAC1B 100%);
 }
 
-span {
+.home span {
   font-weight: bold;
 }
 
