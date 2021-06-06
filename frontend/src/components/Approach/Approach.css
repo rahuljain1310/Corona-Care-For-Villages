@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+  flex-basis: 100%;
+}
+.approach-visual {
+  padding: 2% 4%;
+  text-align: center;
+}
+
+.approach-visual img {
+  width: 240px;
+  height: 240px;
+  outline: 2px black #489618;
+  border-radius: 50%;
+}
+
+.approach-visual h6 {
+  color: #235a00;
+  margin: 8px;
+  text-align: center;
+  font-size: 2em;
+  /* font-weight: bolder; */
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Mate SC', serif; */
+}

@@ -6,6 +6,7 @@ frontend/logs
 **/*.back.*
 
 frontend/node_modules
+/node_modules
 frontend/bower_components
 
 frontend/*.sublime*

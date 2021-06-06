@@ -1,0 +1,9 @@
+#sc-mission p {
+  font-size: 1.2em;
+  text-align: justify;
+  /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Mate SC', serif; */
+  line-height: 2em;
+  width: 90%;
+  margin: auto;
+}
