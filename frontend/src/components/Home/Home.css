@@ -9,6 +9,16 @@
   align-content: center;
 }
 
+@media (max-width: 1000px) {
+  .left-pane {
+    display: none;
+  }
+  
+  .right-pane {
+    text-align: center;
+  }
+}
+
 .left-pane .image{
   width: 100%;
   padding-top: 90%;
@@ -54,18 +64,22 @@
 }
 
 .right-pane p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
 }
 
-.right-pane h3 a{
+.right-pane a{
   text-decoration: none;
   color: rgb(0, 119, 10);
   text-align: center;
-  padding: 8px;
   font-weight: 900;
   margin: 16px 0px;
+}
+
+.right-pane a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .flex-gap {

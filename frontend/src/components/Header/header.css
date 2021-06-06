@@ -1,23 +1,15 @@
 header {
-  /* padding: 12px; */
-  /* position:sticky; */
-  /* top: 0px; */
-  /* background-color: #fff; */
   padding: 24px 9%;
   width: 100%;
   color: white;
   font-size: 1.2em;
-  /* z-index: 1000; */
-  /* -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3); */
 }
 
 .color{
   padding: 8px;
   margin-top: 12px;
   border: 1px 0px solid black;
-  float: right;
+  text-align: center;
 }
 
 .Links{
@@ -28,13 +20,15 @@ header {
   font-size: 1em;
   text-decoration: none;
   cursor: pointer;
+  padding: 8px;
+  text-align: center;
 }
 
 
 .Links:hover{
   text-decoration: none;
-  color: #E71D36;
-  border-bottom: 1px solid #E71D36;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 #header-image{
@@ -62,7 +56,7 @@ header {
 
 @media(max-width: 980px){
   .Links{
-    display: none;
+    /* display: none; */
   }
 }
 

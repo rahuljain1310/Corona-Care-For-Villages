@@ -39,11 +39,11 @@ function Home() {
               <h3><a href="/#sc-initiative">We need your help! Join the Initiative.</a></h3>
               <br/>
               <div className='flex-gap'>
-                <Button size='lg' variant='success'>Volunteer</Button>
-                &nbsp;
-                <Button size='lg' variant='success'>Doctors</Button>
-                &nbsp;
-                <Button size='lg' variant='success'>Donate</Button>
+                {/* <Button size='lg' variant='success'>Volunteer</Button> &nbsp; */}
+                {/* <Button size='lg' variant='success'>Doctors</Button> &nbsp; */}
+                <Button size='lg' variant='success'>
+                  <a href='/donate' style={{color: 'white'}}> Donate </a>
+                </Button>
               </div>
             </div>
           </Col>
