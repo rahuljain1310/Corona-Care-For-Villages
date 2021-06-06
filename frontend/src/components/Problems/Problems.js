@@ -4,13 +4,11 @@ import "./Problems.css";
 function Problems() {
   return (
     <section id = 'sc-problems'>
-      <h1>About Us</h1>
+      <h1>Impact</h1>
       <p>
-        The second wave of Covid-19 has made deep impacts in the Rural parts of India.
-        And this is the time they need us the most! We are creating a network of organisations that are working on ground.
-        From spreading awareness to curb vaccine hesitancy to providing medicine kits volunteers are working tirelessly.
-        We aim to create a strategy that can customised and adopted by organisations or even individual volunteers on ground.
-        We aim to aid these orgainisations on ground by providing medicine kits, and teleMedicine service by connecting doctors on need basis.
+        Second wave of COVID-19 has deeply impacted India, already affecting millions
+        of families, and still killing thousands of people everyday. The rural parts of India are especially impacted, and even though the wave may seem subsided, there are huge aftermaths of the pandemic, including death of the lone breadwinner among many families, massive unemployment, and a gloomy future for thousands of children. Inadequate healthcare infrastructure, 
+        insufficient testing and treatment of COVID, and distrust in modern medicine are making things worse in villages.
       </p>
       <img className='cover' src={cover}/>
     </section>

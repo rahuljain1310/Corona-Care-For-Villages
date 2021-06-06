@@ -30,18 +30,19 @@ function Home() {
           </Col>
           <Col >
             <div className='right-pane'>
-              <span style={{ fontSize: '3em' }}>COVI-CARE</span> <br />
+              <span style={{ fontSize: '3em' }}>COVID-GRAM-SEWA</span> <br />
               <h2>Protecting Rural India from Covid-19</h2>
-              <p>
-                We, in collaboration with NGOs and volunteers at ground are aiming to provide <span>Medicine Kits</span> and
-                connecting <span>Doctors</span> to <span>Patients</span> in rural areas. 
+              <p> 
+                We in collaboration with Sewa International are creating a network of organizations to deliver COVID related relief in rural areas.
+                {/* We, in collaboration with NGOs and volunteers at ground are aiming to provide <span>Medicine Kits</span> and */}
+                {/* connecting <span>Doctors</span> to <span>Patients</span> in rural areas.  */}
               </p>
               <h3><a href="/#sc-initiative">We need your help! Join the Initiative.</a></h3>
               <br/>
               <div className='flex-gap'>
                 {/* <Button size='lg' variant='success'>Volunteer</Button> &nbsp; */}
                 {/* <Button size='lg' variant='success'>Doctors</Button> &nbsp; */}
-                <Button size='lg' variant='success'>
+                <Button size='lg' variant='warning'>
                   <a href='/donate' style={{color: 'white'}}> Donate </a>
                 </Button>
               </div>

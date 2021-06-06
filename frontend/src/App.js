@@ -6,6 +6,7 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Approach from "./components/Approach/Approach";
 import Problems from "./components/Problems/Problems";
 import Donate from "./components/Donate/Donate";
+import About from "./components/About/About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
@@ -19,7 +20,8 @@ const App = () => (
         </Route>
         <Route path="/">
           <Home />
-          <Problems/>
+          <Problems />
+          <About/>
           <Approach/>
           <Testimonials />
           <Partners/>

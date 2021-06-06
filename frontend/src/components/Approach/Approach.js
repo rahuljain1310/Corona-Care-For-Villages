@@ -10,16 +10,7 @@ import awareness from "./Visuals/awareness.png";
 function Approach() {
   return (
     <section id='sc-approach'>
-      <h1>Our Approach</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Maecenas pellentesque quam risus, a viverra lacus finibus ut.
-        Duis vehicula dui at dolor ornare, vitae vulputate ante ultrices.
-        Nulla facilisi. Suspendisse et faucibus neque.
-        Nulla felis lectus, malesuada at ligula eget, varius pretium mi.
-        Pellentesque a hendrerit felis. Cras nunc sapien, mattis eget malesuada vel, hendrerit vel justo.
-        Nullam tristique gravida urna, vel lacinia turpis feugiat quis.
-      </p>
+      <h1>Focus Areas</h1>
       <div className='flex-container'>
         <div className='approach-visual'>
           <img src={medicalKits}/>

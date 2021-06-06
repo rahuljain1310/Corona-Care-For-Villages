@@ -16,6 +16,7 @@ function Header() {
         <Col>
           <nav className="color">
             <a className="Links" href="/donate">Donate</a>
+            <a className="Links" href="/">Home</a>
             <a className="Links" href="/#sc-problems">About Us</a>
             <a className="Links" href="/#sc-approach">Approach</a>
             <a className="Links" href="/#sc-testimonials">Testimonials</a>
